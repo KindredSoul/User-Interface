@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+	background-color: black;
+}
+
+.body {
+	background-color: white;
+	margin: 0 130px;
+	padding: 0 70px;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+nav {
+
+	/* border: 1px solid black; */
+	margin-bottom: 20px;
+}
+
+.main-links a {
+	margin: 30px 30px;
+	/* border: 1px solid black; */
+	text-decoration: none;
+	color: rgb(165, 164, 164);
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.main-links img {
+	/* border: 1px solid black; */
+	/* display: inline-block; */
+	float: right;
+	overflow: auto;
+	margin-top: 20px;
+}
+
+.main-header {
+	/* border: 1px solid black; */
+	margin-bottom: 90px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	font-stretch: ultra-condensed;
+	
+}
+
+.main-header div {
+	display: inline-block;
+	/* border: 1px solid black; */
+	padding: 5%;
+	margin-left: 100px;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	padding: 0 40px;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 80px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.main-header img {
+	
+	/* border: 1px solid black; */
+	float: right;
+}
+
+.container {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+h3 a {
+	text-decoration: none;
+	color: black;
+}
+
+.content1 {
+	/* border: 1px solid black; */
+	display: inline-block;
+	margin: 40px 0;
+	padding-right: 20px;
+	width: 49%;
+}
+
+.container img {
+	display: inline-block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.content2 {
+	/* border: 1px solid black; */
+	display: inline-block;
+	margin: 40px 10px;
+	padding-right: 20px;
+	width: 30%;
+}
+ /*
+.end-content {
+	border: 1px solid black; 
+} 
+*/
+address {
+	margin: 20px 0;
+}
+
+address a {
+	text-decoration: none;
+	color: black;
+}
+
+.copyright {
+	text-align: center;
+	margin: 40px 0 120px 0;
+	font-size: 14px;
+}
